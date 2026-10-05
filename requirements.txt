@@ -1,7 +1,7 @@
 torch
 torchvision
 transformers
-datasets
+datasets<3.0.0
 Pillow
 matplotlib
 tqdm
