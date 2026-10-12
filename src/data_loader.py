@@ -80,7 +80,7 @@ def load_vqa_subset(split: str = "validation[:50]"):
     Returns:
         Dataset: Hugging Face Dataset split.
     """
-    return load_dataset("dandelin/vqa_v2", split=split)
+    return load_dataset("pingzhili/vqa_v2", split=split)
 
 
 
